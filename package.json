@@ -1,7 +1,7 @@
 {
   "name": "large-set",
   "version": "1.0.0",
-  "description": "A wrapper to deal with a large number of elements in Set",
+  "description": "A wrapper to deal with a large number of elements in Set.",
   "url": "https://github.com/aldipermanaetikaputra/large-set",
   "keywords": [
     "set",
