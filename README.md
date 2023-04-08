@@ -22,9 +22,9 @@ for (let i = 0; i <= 16777216; i++) {
 
 ```bash
 # using npm
-npm install mock-gcs
+npm install large-set
 # using yarn
-yarn add mock-gcs
+yarn add large-set
 ```
 
 ## Usage
