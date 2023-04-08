@@ -4,7 +4,7 @@ describe('LargeSet', () => {
   describe('constructor', () => {
     it('should set the default limit per size if no limit is provided', () => {
       const largeSet = new LargeSet();
-      expect(largeSet['limit']).toBe(14000000);
+      expect(largeSet['limit']).toBe(2 ** 24);
     });
 
     it('should set the limit per size if provided', () => {
