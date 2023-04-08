@@ -5,16 +5,16 @@
 ```js
 import LargeSet from 'large-set';
 
-// built-in Set
+// using LargeSet
+const largeSet = new LargeSet();
+for (let i = 0; i <= 16777216; i++) {
+  largeSet.add(i); // No errors will be thrown
+}
+
+// using built-in Set
 const set = new Set();
 for (let i = 0; i <= 16777216; i++) {
   set.add(i); // Throws a 'RangeError: Value undefined out of range for undefined options property undefined'
-}
-
-// LargeSet
-const largeSet = new Set();
-for (let i = 0; i <= 16777216; i++) {
-  largeSet.add(i); // No errors will be thrown
 }
 ```
 
