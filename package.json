@@ -1,0 +1,51 @@
+{
+  "name": "large-set",
+  "version": "1.0.0",
+  "description": "A wrapper to deal with a large number of elements in Set",
+  "url": "https://github.com/aldipermanaetikaputra/large-set",
+  "keywords": [
+    "set",
+    "big-set",
+    "larget-set",
+    "map"
+  ],
+  "author": "Aldi Permana Etika Putra <aldipermanaetikaputra@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldipermanaetikaputra/large-set/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "version": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aldipermanaetikaputra/large-set.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/minimist": "^1.2.2",
+    "@types/stream-buffers": "^3.0.4",
+    "@types/tmp": "^0.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.7",
+    "ts-jest": "^29.0.5",
+    "typescript": "4.9.5"
+  }
+}
