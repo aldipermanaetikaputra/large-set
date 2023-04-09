@@ -55,7 +55,7 @@ class LargeSet<T> implements Set<T> {
 
   public *[Symbol.iterator](): IterableIterator<T> {
     for (const set of this.sets) {
-      yield* set.values();
+      yield* set;
     }
   }
 
@@ -67,7 +67,7 @@ class LargeSet<T> implements Set<T> {
 
   public *keys(): IterableIterator<T> {
     for (const set of this.sets) {
-      yield* set.values();
+      yield* set.keys();
     }
   }
 
