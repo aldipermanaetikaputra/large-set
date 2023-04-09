@@ -1,6 +1,6 @@
 # LargeSet
 
-`LargeSet` is a wrapper for the built-in `Set` data structure that enables storage and handling of a large number of elements without worrying about the maximum limit of $16.777.216$ ($2^{24}$) entries in a `Set`. However, `LargeSet` is optimized to handle a much larger number of elements than the built-in `Set` while maintaining high performance. It has zero external dependencies and written in TypeScript.
+`LargeSet` is a wrapper for the built-in `Set` data structure that enables storage and handling of a large number of elements without worrying about the maximum limit of 16.777.216 (2^24) entries in a `Set`. However, `LargeSet` is optimized to handle a much larger number of elements than the built-in `Set` while maintaining high performance. It has zero external dependencies and written in TypeScript.
 
 ```js
 import LargeSet from 'large-set';
