@@ -11,6 +11,12 @@ class LargeSet<T> implements Set<T> {
     return this.sets.length;
   }
 
+  /**
+   * Creates a new LargeSet instance.
+   *
+   * @param limit Optional parameter to set the maximum number of elements that can be added to a single set in the LargeSet.
+   *              If no limit is provided, a default limit of 16777216 is used, which is the maximum number of elements that can be added to a built-in Set.
+   */
   constructor(private readonly limit: number = 16777216) {
     this.sets = [new Set()];
   }
