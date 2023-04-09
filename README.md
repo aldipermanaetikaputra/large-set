@@ -50,6 +50,10 @@ set.forEach(value => console.log(value));
 
 The `LargeSet` class is designed for use cases where the size of the set may exceed the maximum limit of a built-in `Set`. However, it is not a drop-in replacement for `Set`, and may not be suitable for all use cases. Additionally, the partitioning of the set into smaller sets can incur a performance penalty, particularly for operations that involve searching for elements or iterating over the set. It is recommended to use `LargeSet` only when dealing with very large sets, and to test its performance against built-in `Set` for your specific use case.
 
+## Related
+
+- [large-map](https://github.com/aldipermanaetikaputra/large-map) - A wrapper to deal with a large number of elements in Map.
+
 ## Testing
 
 This library is well tested. You can test the code as follows:
